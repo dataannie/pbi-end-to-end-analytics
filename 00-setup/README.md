@@ -14,6 +14,7 @@ To ensure a smooth experience during the Power BI workshop exercises, please fol
 ### Step 2: Download the Exercise Files
 
 1. Download the `PBI.zip` file from the following link: [PBI.zip](https://github.com/dataannie/pbi-end-to-end-analytics/blob/main/00-setup/PBI.zip).
+![image](https://github.com/dataannie/pbi-end-to-end-analytics/assets/71386204/b785a119-b653-40ef-a979-60163329e906)
 2. Save the file to a location on your computer.
 
 ### Step 3: Extract the Files
