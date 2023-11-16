@@ -8,18 +8,20 @@ In this repository, you will find a comprehensive set of materials designed to o
 
 ### Workshop Exercises
 
-- **Exercise 1: My First Power BI Report** - Dive into the world of Power BI by learning to build a basic report. This introductory session is designed to familiarise you with the tool's environment and its capabilities.
-- **Exercise 2: Workforce Demographic** - Enhance your skills by enriching your dataset, exploring advanced analytical techniques, and uncovering deeper insights.
-- **Exercise 3: Workforce Summary** - In the final exercise, we'll delve into sophisticated data modeling and transformation techniques to create comprehensive and powerful visualisations.
+| | Exercises                         | Description |
+| ----- | ----------------------------- | ----------- |
+|00| **[Set Up](https://github.com/dataannie/pbi-end-to-end-analytics/tree/main/00-setup)**       | All necessary setup instructions before starting on the exercises. |
+|01| **My First Power BI Report** | Dive into the world of Power BI by learning to build a basic report. This introductory session is designed to familiarise you with the tool's environment and its capabilities. |
+|02| **Workforce Demographic** | Enhance your skills by enriching your dataset, exploring advanced analytical techniques, and uncovering deeper insights. |
+|03| **Workforce Summary** | In the final exercise, we'll delve into sophisticated data modelling and transformation techniques to create comprehensive and powerful visualisations. |
+
 
 ## Getting Started
 
-To make the most of this workshop, please ensure you are prepared with the following prerequisites:
+To enhance your experience and learning in this workshop, the following points will be helpful:
 
-- **Basic Computer Literacy**: Comfortable with standard computer operations and software applications.
-- **Understanding of Data Concepts**: Familiarity with basic data principles and their importance in business contexts.
-- **Power BI Desktop**: Ensure you have Power BI Desktop installed. Download it [here](https://www.microsoft.com/en-au/download/details.aspx?id=58494).
-- **Workshop Materials**: Access and familiarise yourself with the exercise files provided in this repository.
+- **Basic Computer Literacy**: Being comfortable with standard computer operations and software applications will aid in navigating through the exercises smoothly.
+- **Understanding of Data Concepts**: A basic familiarity with data principles and their relevance in business contexts can enrich your understanding and application of the workshop content.
 
 ## License
 
