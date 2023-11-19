@@ -1,0 +1,17 @@
+//Adapted from https://radacad.com/create-a-date-dimension-in-power-bi-in-4-steps-step-1-calendar-columns
+let
+    StartDate = #date(2006, 1, 1),
+    EndDate = #date(2023,12,31),
+    NumberOfDays = Duration.Days( EndDate - StartDate ),
+    Dates = List.Dates(StartDate, NumberOfDays+1, #duration(1,0,0,0)),
+    #"Converted to Table" = Table.FromList(Dates, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+    #"Renamed Columns" = Table.RenameColumns(#"Converted to Table",{{"Column1", "FullDateAlternateKey"}}),
+    #"Changed Type" = Table.TransformColumnTypes(#"Renamed Columns",{{"FullDateAlternateKey", type date}}),
+    #"Inserted Week of Year" = Table.AddColumn(#"Changed Type", "Week of Year", each Date.WeekOfYear([FullDateAlternateKey]), type number),
+    #"Inserted Week of Month" = Table.AddColumn(#"Inserted Week of Year", "Week of Month", each Date.WeekOfMonth([FullDateAlternateKey]), type number),
+    #"Inserted Day of Week" = Table.AddColumn(#"Inserted Week of Month", "Day of Week", each Date.DayOfWeek([FullDateAlternateKey]), type number),
+    #"Inserted Day of Year" = Table.AddColumn(#"Inserted Day of Week", "Day of Year", each Date.DayOfYear([FullDateAlternateKey]), type number),
+    #"Inserted Day Name" = Table.AddColumn(#"Inserted Day of Year", "Day Name", each Date.DayOfWeekName([FullDateAlternateKey]), type text),
+    #"Inserted YYYYMM" = Table.AddColumn(#"Inserted Day Name", "YYYYMM", each Text.Combine({Date.ToText([FullDateAlternateKey], "yyyy"), Date.ToText([FullDateAlternateKey], "MM") }))
+in
+    #"Inserted YYYYMM"
