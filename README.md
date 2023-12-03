@@ -2,7 +2,7 @@
 
 Welcome to the "End to End Analytics - Power BI Foundations" workshop. This course is tailored to equip you with the essential skills and knowledge to leverage Power BI, a leading tool in data analytics. Our goal is to guide you through the process of transforming raw data into meaningful insights that can significantly impact your organisation's decision-making.
 
-This workshop can be delivered virtually or in person by [Annie Leung](linkedin.com/in/annieleung) and [Minh Pham](linkedin.com/in/phamminh).
+This workshop can be delivered virtually or in person by [Annie Leung](https://www.linkedin.com/in/annieleung) and [Minh Pham](https://www.linkedin.com/in/phamminh).
 
 If you are interested in booking this workshop or other similar workshops, please visit [Actionable Data Analytics](https://actionabledataanalytics.com/)
 
